@@ -8,13 +8,14 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #0d0d25;
     font-weight: 400;
+    margin: 0;
   }
 
 h1, h2 {
     font-family: "Yeseva One", serif;
     font-size: 4rem;
     color: #0d0d25;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     letter-spacing: 1px;
   }
 
@@ -54,13 +55,36 @@ nav a {
 }
 
 .aboutUs {
-    background-image: url("heroImage.jpg");
+    background-image: 
+        linear-gradient(to left, rgb(78, 78, 78), rgba(0, 0, 0, 0)), 
+        url('aboutUsImage001.jpg');
     background-size: cover;
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     height: 95vh;
 }
 
+
+
+.aboutUsContent{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 5%;
+    /* border: red 1px solid; */  /*debug*/
+
+
+}
+
+.aboutUsContent h2{
+    margin: 0;
+}
+
+.aboutUsContent h6{
+    color: orange;
+    margin-bottom: 0;
+}
 .search-container {
     display: flex;
     justify-content: space-between;
