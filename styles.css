@@ -1,0 +1,123 @@
+/* debug color so I don't get flashbanged by my own monitor again. */
+
+/* * {
+    background-color: black;
+} */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #0d0d25;
+    font-weight: 400;
+  }
+
+h1, h2 {
+    font-family: "Yeseva One", serif;
+    font-size: 4rem;
+    color: #0d0d25;
+    padding-bottom: 3rem;
+    letter-spacing: 1px;
+  }
+
+header {
+    background-image: url('path-to-your-image.jpg');
+    background-size: cover;
+    height: 300px;
+    color: white;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: right;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+.hero  {
+    background-image: url("heroImage.jpg");
+    background-size: cover;
+    margin: 0 ;
+    padding: 0;
+    height: 95vh;
+}
+.heroContent{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 5%;
+    /* border: red 1px solid; */  /*debug*/
+}
+
+.aboutUs {
+    background-image: url("heroImage.jpg");
+    background-size: cover;
+    margin: 0 ;
+    padding: 0;
+    height: 95vh;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-container select {
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    /* border-radius: 5px; */
+    cursor: pointer;
+}
+
+.social-stats {
+    
+    font-size: 1rem;
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.social-stats li {
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: 1.5rem;
+    color: orange;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+.speciality {
+    display: flex;
+    justify-content: space-between;
+}
+.speciality img {
+    max-width: calc(100% / 4 - 15px);
+}
