@@ -64,8 +64,6 @@ nav a {
     height: 95vh;
 }
 
-
-
 .aboutUsContent{
     display: flex;
     float: right;
@@ -74,7 +72,6 @@ nav a {
     margin-right: 5%;
     /* border: red 1px solid; */  /*debug*/
 
-
 }
 
 .aboutUsContent h2{
@@ -82,6 +79,80 @@ nav a {
 }
 
 .aboutUsContent h6{
+    color: orange;
+    margin-bottom: 0;
+}
+
+.speciality {
+    background-image: 
+        linear-gradient(to left, rgb(78, 78, 78), rgba(0, 0, 0, 0)), 
+        url('aboutUsImage001.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+}
+
+
+
+.specialityContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    /* margin-right: 5%; */
+    /* border: red 1px solid; */  /*debug*/
+
+
+}
+
+.specialityContent ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.specialityContent ul li{
+    margin: 0 5% 0 5%;
+}
+
+
+.menuItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.itemCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  /* Adds a subtle shadow around the card */
+    border-radius: 10px;  /* Rounds the corners */
+    padding: 20px;  /* Adds space inside the card */
+    margin: 15px;  /* Adds space outside the card */
+    width: 15%;  /* Sets a fixed width, you can adjust as needed */
+    transition: 0.3s;  /* Adds a transition effect for when you hover over the card */
+  }
+  
+  .itemCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);  /* Increases the shadow for a "lifted" effect */
+  }
+  
+  .itemCard img {
+    border-radius: 10px 10px 0 0;  /* Rounds the top corners of the image */
+    width: 100%;  /* Makes the image expand to cover the width of the card */
+    height: auto;  /* Keeps the image's aspect ratio intact */
+  }
+  
+  .itemCard .container {
+    padding: 2px 16px;  /* Adds padding inside the container */
+  }
+
+.specialityContent h2{
+    margin: 0;
+}
+
+.specialityContent h6{
     color: orange;
     margin-bottom: 0;
 }
@@ -135,9 +206,9 @@ nav a {
     margin-left: 15px;
 }
 
-.section {
+/* .section {
     margin-bottom: 50px;
-}
+} */
 .speciality {
     display: flex;
     justify-content: space-between;
